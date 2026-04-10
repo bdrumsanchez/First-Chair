@@ -16,6 +16,17 @@ pnpm workspace monorepo using TypeScript. Each package manages its own dependenc
 - **API codegen**: Orval (from OpenAPI spec)
 - **Build**: esbuild (CJS bundle)
 
+## Artifacts
+
+### Note Trainer (`artifacts/note-trainer`)
+A music note naming speed game. Frontend-only React+Vite app.
+- Displays random notes on the grand staff (treble and/or bass clef)
+- Two answer modes: note name buttons (A-G) or interactive piano keyboard
+- Tracks speed, accuracy, streaks, and shows detailed results
+- Keyboard shortcut support (press A-G keys)
+- Includes reference chart from the provided image
+- Components: GrandStaff (SVG), PianoKeyboard (SVG), NoteGame (game logic)
+
 ## Key Commands
 
 - `pnpm run typecheck` — full typecheck across all packages
