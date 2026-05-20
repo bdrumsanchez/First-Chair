@@ -1,6 +1,6 @@
 kind = "web"
 previewPath = "/"
-title = "Note Trainer"
+title = "Speed-Trainer"
 version = "1.0.0"
 id = "artifacts/note-trainer"
 router = "path"

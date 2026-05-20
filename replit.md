@@ -18,7 +18,7 @@ pnpm workspace monorepo using TypeScript. Each package manages its own dependenc
 
 ## Artifacts
 
-### Note Trainer (`artifacts/note-trainer`)
+### Speed-Trainer (`artifacts/note-trainer`)
 A music note naming speed game. Frontend-only React+Vite app.
 - Displays random notes on the grand staff (treble and/or bass clef)
 - Two answer modes: note name buttons (A-G) or interactive piano keyboard
